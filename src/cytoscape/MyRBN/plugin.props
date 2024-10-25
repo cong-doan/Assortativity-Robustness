@@ -1,0 +1,17 @@
+# -- The following properties are REQUIRED -- #
+
+# The plugin name that will be displayed to users
+pluginName=PANET
+
+# Description used to give users information about the plugin such as what it does.  
+# Html tags are encouraged for formatting purposes.
+pluginDescription=PANET is a Cytoscape plugin that conveniently simulates dynamics related to robustness, and examines structural properties with respect to feedforward/feedback loops. It can evaluate how robustly a network sustains a stable state against mutations by employing a Boolean network model. In addition, the plugin can examine all feedforward/feedback loops appearing in a network and determine whether or not a pair of loops is coupled. Random networks can also be generated to evaluate whether or not an interesting finding in real biological networks is significantly random. This is an improved version of NetDS (http://netds.sourceforge.net/). We employed OpenCL library to make the time-consuming parts of NetDS are processed in parallel. Finally, in comparison to the original NetDS, PANET performed large-scale robustness calculation and feed-forward/feedback loop examination faster by several hundred times for a human signaling network with 1609 nodes and 5063 links.
+
+# Plugin version number, this must be two numbers separated by a decimal.  Ex. 0.2, 14.03
+pluginVersion=1.0
+
+# Compatible Cytoscape version
+cytoscapeVersion=2.7,2.8
+
+# Category, use one of the categories listed on the website or create your own
+pluginCategory=Graph analysis
